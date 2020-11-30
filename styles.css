@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500&display=swap');
+
+article{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+:root {
+    --primary: #FBBF24;
+    --secondary: #34D399;
+    --primary-dark: #92400E;    ;
+    --secondary-dark: #065F46;
+    --off-white: #f8f8f8;
+    --white: #ffffff;
+}
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    max-width: 600px;
+    margin: auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary);
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+
+}
+
+.primary-link {
+    
+   background-color: var(--primary-dark);
+   text-decoration: none;
+   font-size: 1.1rem;
+   padding: 0.5rem;
+   border: 1px solid var(--primary);
+   border-radius: 0.2rem;
+   margin-right: 0.5rem;
+
+}
+
+.secondary-link {
+   
+    border: 1px solid;
+   text-decoration: none;
+   font-size: 1.1rem;
+   padding: 0.5rem;
+}
+
+
+.nav {
+    padding: 1rem 1rem 0rem 1rem;
+    background-color: var(--primary-dark);
+    border-bottom-left-radius: 1rem;
+}
+
+.nav .active {
+    font-weight: bolder;
+}
+
+.nav .logo {
+    font-weight: bolder;
+    color: var(--primary-dark);
+}
+
+.nav li {
+    display: inline-block;
+    padding: 0.5rem;
+}
+
+.nav ul {
+    text-align: right;
+}
+
+header {
+    padding: 2rem 1rem 2rem 1rem;
+}
+
+header h1 {
+    text-align: center;
+    padding-top: 1rem;
+    color: darkgray
+}
+
+header .hero {
+    border-radius: 2rem;
+    max-width: 300px;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
+.ow {
+    background-color: var(--off-white);
+}
+
+section {
+    padding: 2rem 1rem 2rem 1rem;
+}
+
+
+footer {
+    padding: 2rem 1rem ;
+    background-color: var(--primary-dark);
+    color: var(--white);
+    border-top-right-radius: 1rem;
+}
+
+footer a {
+    color: var(--white)
+}
+
+footer li {
+    list-style: none;
+    padding: 0.5rem;;
+}
+
+.text-m {
+    font-size: 1.2rem;
+}
